@@ -1,0 +1,92 @@
+{
+  "source": "GitHub Copilot CLI v1.0.98 (model 'Auto': gpt-6-luna, once gpt-5-mini) with Oli as a remote MCP server, 18 Oct 2026. Tool names and arguments as printed in the terminal; C03 arguments as reported by Copilot when asked to show them as JSON. Run after the Claude red-team probing, so fee comparisons were already paused.",
+  "runs": [
+    {
+      "case_id": "C01",
+      "tool_calls": [
+        {
+          "name": "check_offer",
+          "args": {
+            "brand": "Betting app (name not provided)"
+          }
+        }
+      ],
+      "final_text": "Not workable as offered. It conflicts with your saved terms in three ways: betting/gambling is a category you won't promote, 90-day paid ads exceed your allowed usage, and the three-day turnaround is shorter than your 14-day notice requirement. The ₹5,000 fee hasn't been compared with your minimum, so I can't say whether the price works.",
+      "skip": [
+        "args"
+      ],
+      "note": "Full arguments were truncated in the terminal, so only tool choice and the reply are scored."
+    },
+    {
+      "case_id": "C02",
+      "tool_calls": [
+        {
+          "name": "check_offer",
+          "args": {
+            "brand": "Betting app (name not provided)"
+          }
+        }
+      ],
+      "final_text": "Result: Not acceptable as-is. Key conflicts: betting/gambling category you refuse; 90-day paid-ads exceeds allowed usage; 3-day turnaround violates your 14-day notice. Fee (₹5,000) wasn't compared to your minimum. Suggested next steps: Ask the brand the two questions above. Request correct notice or pay a rush fee, and restrict paid-ads rights or raise fee. Decline if gambling is non-negotiable.",
+      "skip": [
+        "args"
+      ],
+      "note": "Full arguments were truncated in the terminal, so only tool choice and the reply are scored."
+    },
+    {
+      "case_id": "C03",
+      "tool_calls": [
+        {
+          "name": "check_offer",
+          "args": {
+            "brand": "Fantasy cricket app",
+            "category": "gaming",
+            "deliverables": [
+              "short"
+            ],
+            "fee": 8000,
+            "liveBy": "2026-11-07",
+            "product": "Fantasy cricket app",
+            "usage": "organic"
+          }
+        }
+      ],
+      "final_text": "Oli says the Short format fits. It flagged two details to clarify with the brand: competitor exclusivity and how many revision rounds they expect (and who approves the script). The ₹8,000 fee wasn't compared with your private minimum, so the check doesn't give a fee verdict. The requested live date is November 7, 2026."
+    },
+    {
+      "case_id": "C12",
+      "tool_calls": [
+        {
+          "name": "propose_terms_update",
+          "args": {
+            "changes": {
+              "usage": "paid_30"
+            },
+            "creator_said": "I'm now fine with paid ads for up to 30 days."
+          }
+        },
+        {
+          "name": "confirm_terms_update",
+          "args": {
+            "change_id": "apc_v6ezrggypa"
+          }
+        }
+      ],
+      "final_text": "Saved. Your term now allows paid ads for up to 30 days."
+    },
+    {
+      "case_id": "C17",
+      "tool_calls": [
+        {
+          "name": "save_work_plan",
+          "args": {
+            "title": "Sunrise timelapse",
+            "shoot_on": "2026-10-24",
+            "due_on": "2026-10-27"
+          }
+        }
+      ],
+      "final_text": "Saved Sunrise timelapse to your Thommidhi Lab. Shoot date: Saturday, October 24; post date: Tuesday, October 27. Tasks: check weather, shoot, edit."
+    }
+  ]
+}
