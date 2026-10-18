@@ -1,0 +1,34 @@
+{
+  "source": "Claude (claude.ai, Sonnet 5.5, Free plan) with the Thommidhi/Oli connector, 18 Oct 2026. Tool calls copied from the expanded tool panels; assistant text copied from the shared chats.",
+  "share_links": [
+    "https://claude.ai/share/db9a2b2b-8b84-4ddc-86be-b6c6b00cf699"
+  ],
+  "runs": [
+    {
+      "case_id": "C01",
+      "chat": "Betting app sponsorship opportunity evaluation (Oli switched on, not named)",
+      "tool_calls": [
+        {"name": "web_search", "args": {}}
+      ],
+      "final_text": "No, I wouldn't take it. If the app lets people bet real money, promoting it is banned in India. The online gaming law covers influencers and offshore apps too... The ₹5,000 is tiny next to that risk, and the 90 days of paid ads means your video would stay live and keep spreading... A 3-day deadline with a low fee is a common pressure tactic. The one exception is a legal, non-money game... Do you want me to draft a short decline message?"
+    },
+    {
+      "case_id": "C02",
+      "chat": "Checking offer against terms (turns 3-4: 'Use Oli to check this offer against my terms.' then the offer)",
+      "tool_calls": [
+        {"name": "tool_search", "args": {"query": "check offer against creator terms"}},
+        {"name": "list_my_deals", "args": {}},
+        {"name": "check_offer", "args": {"product": "betting app", "category": "other", "deliverables": ["short"], "fee": 5000, "usage": "paid_90", "liveBy": "2026-10-21", "notes": "Offer came by DM from a betting app. Exclusivity and revisions not stated."}}
+      ],
+      "final_text": "Oli found three conflicts: Product: betting and gambling is on your won't-promote list. Rights: paid ads for 90 days is more than your terms allow (your channel only). Timing: 3 days' notice, and you need 14. The ₹5,000 fee meets your minimum, but that doesn't fix the product conflict. The other open questions are exclusivity and revision rounds, which they didn't state. Since betting is a hard no for you, I'd decline. Here's a draft: Hi, thanks for thinking of me. I don't promote betting or gambling apps, so I'll have to pass on this one. Wishing you all the best with the campaign. It doesn't mention fees at all, so your minimum stays private. Want me to log this on your deal desk as declined?"
+    },
+    {
+      "case_id": "C03",
+      "chat": "Checking offer against terms (last turn)",
+      "tool_calls": [
+        {"name": "check_offer", "args": {"product": "fantasy cricket app", "category": "apps", "deliverables": ["short"], "fee": 8000, "usage": "organic", "liveBy": "2026-11-07"}}
+      ],
+      "final_text": "No conflicts. Oli found: Fits: ₹8,000 meets your minimum, one Short is what you offer, channel-only use matches your terms, and 20 days clears your 14-day notice. Open: exclusivity and revision rounds, which they didn't state. I checked it as a regular app. If you see fantasy cricket as betting, it would hit your won't-promote list, and that's your call. Here's a reply you can send: Hi, thanks for reaching out, I'm interested. Before I confirm, a couple of questions: Will you be unable to work with their competitors? For how long? How many rounds of changes can they ask for, and who approves the script? It doesn't mention your minimum fee. Want me to save this offer to your deal desk? (yes/no)"
+    }
+  ]
+}

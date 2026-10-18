@@ -1,0 +1,15 @@
+{
+  "source": "ChatGPT (chatgpt.com, logged out / free, 18 Oct 2026) using Thommidhi's 'With any AI' copy-paste pack. No tools: the model only sees the pack text. Pack rebuilt from the account's saved terms in the pack's own format (profile, terms; minimum fee not included).",
+  "runs": [
+    {
+      "case_id": "C01", "skip": ["tools", "args"],
+      "tool_calls": [],
+      "final_text": "My recommendation: Decline this offer. The ₹5,000 payment isn't the main issue — the betting category conflicts with your stated terms, and the brand's timeline and paid-ad rights don't fit your requirements. ₹5,000 for one Short: Potentially workable. We don't know enough to say whether ₹5,000 is a good rate for your channel. Betting app promotion: Doesn't fit. You've explicitly said you won't promote betting or gambling. 90 days of paid ads: Outside your terms. Your included reuse rights are limited to your own channel. Going live in 3 days: Too short. You require 14 days' notice. Reply: ... I don't take on betting or gambling promotions. I also require at least 14 days' notice, and paid advertising usage isn't included in my standard collaboration terms. === THOMMIDHI PLAN === Title: Decline betting app collaboration ... Shoot date (YYYY-MM-DD): N/A Due date (YYYY-MM-DD): N/A ... === END ==="
+    },
+    {
+      "case_id": "C03", "skip": ["tools", "args"],
+      "tool_calls": [],
+      "final_text": "My recommendation: Decline this one too, unless the campaign is strictly non-gambling and you genuinely want to revise your stated boundary. The payment, posting rights and timeline fit your terms much better, but fantasy cricket can fall under betting/gambling depending on the product and campaign. Fantasy cricket app: Category conflict to resolve. You explicitly exclude betting and gambling. Check whether the app involves paid contests, entry fees, cash prizes or other real-money gaming. Reply: ... I don't accept betting or gambling promotions, so I'd need to understand the app and campaign in more detail before deciding. Could you please share the campaign brief, explain whether the app involves paid entry, cash prizes or real-money contests ..."
+    }
+  ]
+}
